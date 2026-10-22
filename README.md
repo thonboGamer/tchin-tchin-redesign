@@ -2,6 +2,10 @@
 
 Konceptredesign af [tchin-tchin.dk](https://tchin-tchin.dk): én `index.html` plus en `images/`-mappe, uden build-trin.
 
+**Se siden live:** https://thonbogamer.github.io/tchin-tchin-redesign/
+
+Siden er mærket "Koncept" i menuen og footeren og er sat til `noindex`, så den ikke dukker op i Google ved siden af den rigtige side.
+
 ## Se siden
 
 Åbn `index.html` i Chrome, Safari eller Firefox. Der er ingen installation.
@@ -28,6 +32,6 @@ Produktfotos, fotos af serveringstrinnene, smiley og skiltet med aldersgrænse e
 
 ## Mangler før lancering
 
-- Kontaktformular og nyhedsbrev skal kobles til en server. Lige nu viser de kun en bekræftelse.
+- Kontaktformular og nyhedsbrev skal kobles til en server. Lige nu sender de ikke noget. Formularen tilbyder i stedet at åbne beskeden som en e-mail.
 - Kurven sendes ikke videre til webshoppen. Knappen åbner den nuværende shop.
 - Matchango og Cosmo Kiss findes i webshoppen, men er ikke med i sortimentet. Det er de heller ikke på den nuværende forside.

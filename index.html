@@ -6,6 +6,7 @@
 <title>Tchin Tchin — Prisvindende alkoholfrie drinks</title>
 <meta name="description" content="Prisvindende alkoholfrie drinks på 20 sekunder. Premium mocktails til erhverv og private — tilsæt selv spiritus, og du har en cocktail.">
 <meta name="theme-color" content="#0d0b09">
+<meta name="robots" content="noindex">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d0b09'/%3E%3Cpath d='M12 18h40c-1 13-9 19-20 19S13 31 12 18z' fill='%23dcb44f'/%3E%3Crect x='30.5' y='37' width='3' height='13' fill='%23dcb44f'/%3E%3Cellipse cx='32' cy='51' rx='11' ry='2.5' fill='%23dcb44f'/%3E%3C/svg%3E">
 <link rel="preload" as="image" href="images/marquis.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -117,6 +118,7 @@ input,textarea{font:inherit;color:inherit}
 .logo svg{width:26px;height:26px;transition:transform .8s var(--ease)}
 .logo:hover svg{transform:rotate(-14deg) translateY(-2px)}
 .logo b{font-weight:400;color:var(--gold)}
+.concept{flex:none;display:inline-flex;align-items:center;height:22px;padding:0 9px;margin-left:-10px;border-radius:999px;border:1px dashed rgba(220,180,79,.55);color:var(--gold);font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;cursor:help}
 .nav-links{display:flex;gap:4px;margin-left:auto;list-style:none;padding:0;margin-block:0}
 .nav-links a{position:relative;display:block;padding:8px 14px;font-size:14px;font-weight:500;color:var(--muted);transition:color .3s;overflow:hidden;border-radius:999px}
 .nav-links a span{display:block;transition:transform .5s var(--ease)}
@@ -467,6 +469,7 @@ section{position:relative}
 .form.sent .form-done svg path+path{animation-delay:.5s}
 .form-done h3{font-family:var(--serif);font-weight:400;font-size:36px;margin:0 0 8px}
 .form-done p{color:var(--muted);margin:0}
+.form-done a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
 
 /* ---------- footer ---------- */
 footer{position:relative;background:var(--ink-2);padding:clamp(80px,10vw,140px) 0 30px;overflow:hidden;border-radius:40px 40px 0 0;margin-top:clamp(40px,6vw,100px)}
@@ -657,6 +660,7 @@ footer{position:relative;background:var(--ink-2);padding:clamp(80px,10vw,140px) 
       <svg viewBox="0 0 64 64" fill="none"><path d="M8 16h48c-1.4 15-10.6 22-24 22S9.4 31 8 16z" fill="#dcb44f"/><path d="M32 38v14M21 54h22" stroke="#dcb44f" stroke-width="3" stroke-linecap="round"/><circle cx="46" cy="10" r="3" fill="#f1d58a"/><circle cx="40" cy="5" r="1.8" fill="#f1d58a"/></svg>
       <span>tchin <b>tchin</b></span>
     </a>
+    <span class="concept" title="Konceptredesign af tchin-tchin.dk – ikke Tchin Tchins officielle side">Koncept</span>
     <ul class="nav-links">
       <li><a href="#sortiment" data-nav><span data-t="Sortiment">Sortiment</span></a></li>
       <li><a href="#saadan" data-nav><span data-t="Sådan gør du">Sådan gør du</span></a></li>
@@ -983,7 +987,7 @@ footer{position:relative;background:var(--ink-2);padding:clamp(80px,10vw,140px) 
         <div>
           <svg viewBox="0 0 120 120"><path d="M30 34h34c-1 18-8 24-17 24s-16-6-17-24zM47 58v28M37 88h20"/><path d="M90 30l-26 22M72 30h18v18"/></svg>
           <h3>Tak — skål!</h3>
-          <p>Vi vender tilbage hurtigst muligt.</p>
+          <p>Det her er et konceptredesign, så beskeden er ikke sendt.<br><a id="mailFallback" href="mailto:info@tchin-tchin.dk">Send den som e-mail i stedet</a></p>
         </div>
       </div>
     </form>
@@ -1024,7 +1028,7 @@ footer{position:relative;background:var(--ink-2);padding:clamp(80px,10vw,140px) 
       <img class="age-sign" src="images/aldersgraense.png" alt="Aldersgrænse for salg: 16 år for alkohol max 6 %, 18 år for alkohol over 6 %" width="84" height="84" loading="lazy">
     </div>
     <div class="foot-bottom">
-      <span>© <span id="yr"></span> Tchin Tchin Cocktails · <a href="mailto:info@tchin-tchin.dk">info@tchin-tchin.dk</a></span>
+      <span>Konceptredesign · © <span id="yr"></span> Tchin Tchin Cocktails · <a href="mailto:info@tchin-tchin.dk">info@tchin-tchin.dk</a></span>
       <div class="socials">
         <a href="https://www.facebook.com/Tchin-Tchin-112008554747164" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4.5V11H7v4h3v9h4v-9h3l1-4h-4V8.8c0-.5.3-.8 1-.8z"/></svg></a>
         <a href="https://www.instagram.com/tchintchin.dk/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
@@ -1678,13 +1682,16 @@ form.addEventListener('submit', e => {
     if (bad) { f.classList.add('err'); ok = false; }
   });
   if (!ok) { $('.field.err input,.field.err textarea', form).focus(); return; }
+  // concept site: nothing is sent, so hand the message to the visitor's own mail app instead
+  const f = Object.fromEntries(new FormData(form));
+  $('#mailFallback').href = `mailto:info@tchin-tchin.dk?subject=${encodeURIComponent(f.subject)}&body=${encodeURIComponent(`${f.message}\n\n${f.name} <${f.email}>`)}`;
   form.classList.add('sent');
-  setTimeout(() => { form.reset(); form.classList.remove('sent'); }, 6000);
+  setTimeout(() => form.classList.remove('sent'), 10000);
 });
 $$('.field input,.field textarea', form).forEach(i => i.addEventListener('input', () => i.closest('.field').classList.remove('err')));
 $('#news').addEventListener('submit', e => {
   e.preventDefault(); const v = $('#n-mail').value.trim();
-  $('#newsOk').textContent = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) ? 'Tak! Du er nu på listen. 🥂' : 'Indtast en gyldig e-mail.';
+  $('#newsOk').textContent = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) ? 'Tak! Det her er en konceptside, så tilmeldingen er ikke gemt.' : 'Indtast en gyldig e-mail.';
   if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) $('#n-mail').value = '';
 });
 
